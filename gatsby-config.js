@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Material UI Starter`,
-    description: `Kick off your next, great Gatsby project with this Material UI starter. This barebones starter ships with the main Gatsby and Material UI configuration files you might need.`,
-    author: `@dominicabela`,
+    title: `Alex Sadowski || Front-End Develop`,
+    description: `Hello, my name is Alex - I am a React Developer. Contact me if you want me to help you develop your project!`,
+    author: `Alex Sadowski`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -42,5 +42,7 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sass`,
+    
   ],
 }
