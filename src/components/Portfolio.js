@@ -64,8 +64,8 @@ export default function Portfolio() {
                 </div>
                 <div className="items go">
                 <div className="multi-button">
-                <a href="https://github.com/AlexJohnSadowski/Paris-Resort" target="_blank" rel="noopener" class="buttonOne">Website</a>   
-                <a href="https://parisresort.netlify.app/" target="_blank" rel="noopener" class="buttonOne">GitHub</a>   
+                <a href="https://parisresort.netlify.app/" target="_blank" rel="noopener" class="buttonOne">Website</a>   
+                <a href="https://github.com/AlexJohnSadowski/Paris-Resort" target="_blank" rel="noopener" class="buttonOne">GitHub</a>   
                 </div>
             </div>
             </div>
