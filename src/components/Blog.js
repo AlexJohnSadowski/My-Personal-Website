@@ -13,11 +13,11 @@ export default function Blog() {
                     <div className = "items head">
                     <p>Stop number 4 in the Land of the Rising Sun.</p>
                 </div>
-                <div className = "items price">
+                <div className = "items descr">
                 <p>My first short story which I wrote when I was still studying. Certainly influenced by V.Woolf, Hemingway and other modernist writers.</p>
                 </div>
-                <div className="items cart">
-                <i className="fa fa-shopping-cart"></i>
+                <div className="items go">
+                <i className="fa fa-shopping-go"></i>
                     <div className="multi-button__blog">
                     <a href={stop4_japan_as} target="_blank" rel="noopener" class="buttonOne">Read</a>                     
                     </div>
@@ -31,11 +31,11 @@ export default function Blog() {
                     <div className = "items head">
                     <p>To become an astronaut</p>
                 </div>
-                <div className = "items price">
+                <div className = "items descr">
                 <p>Second attempt to deliver to the reader an unusual perspective of a young man, constantly dreaming about reaching the stars and becoming an astronaut.</p>
                 </div>
-                <div className="items cart">
-                <i className="fa fa-shopping-cart"></i>
+                <div className="items go">
+                <i className="fa fa-shopping-go"></i>
                 <div className="multi-button__blog">
                 <a href={Astronaut_as_en1} target="_blank" rel="noopener" class="buttonOne">Read</a>     
                 </div>

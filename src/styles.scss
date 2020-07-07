@@ -302,11 +302,11 @@ opacity:0.4;
     }
 
     .card-one {
-        background: url("../src/images/mockupFour.jpg");
+        background: url("../src/images/newmockupFour.jpg");
     }
 
     .card-two {
-        background: url("../src/images/mockupTwo.jpg");
+        background: url("../src/images/newmockupTwo.jpg");
     }
 
     .card-three {
@@ -314,7 +314,7 @@ opacity:0.4;
     }
 
     .card-five {
-        background: url("../src/images/mockupFive.jpg");
+        background: url("../src/images/newmockupFive.jpg");
     }
 
   
@@ -327,7 +327,7 @@ opacity:0.4;
     grid-template-rows: 1fr 2fr 2fr 2fr;
     
     background: rgba(5, 5, 5, 0.9);
-    color: white;
+    color: rgb(219, 210, 210);
     opacity: 0;
     transition: all 0.5s;
     
@@ -405,7 +405,7 @@ opacity:0.4;
   
   .buttonOne {
       font-size:24px;
-      padding:10px;
+      padding:5px;
       border: 1px #ffffff solid;
       color:#ffffff;
       background:transparent

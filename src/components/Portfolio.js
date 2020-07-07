@@ -18,8 +18,8 @@ export default function Portfolio() {
                     <p>Gradobor RPG</p>
                 </div>
                 <div className = "items descr">
-                <p>Gradobor is a text-based rpg game where the whole concept is based on interactions between users - you create your own character, and then move on to talk in the tavern, or go on a great adventure!</p>
-                <p>Technologies used: React, React Router, Redux, Firebase (authentication, databases, firebase cloud)</p>
+                <p>Gradobor is a text-based rpg game where the whole concept is based on interactions between users - create your own character and go on a great adventure!</p>
+                <p>Technologies used: React, React Router, Redux and Firebase.</p>
                 </div>
                 <div className="items go">
                 <div className="multi-button">
@@ -75,7 +75,7 @@ export default function Portfolio() {
                 <div className="overlay">
                     <div className = "items"></div>
                     <div className = "items head">
-                    <p>This very website that you are on right now!</p>
+                    <p>This very website!</p>
                 </div>
                 <div className = "items descr">
                 <p>My personal website was written using Gatsby and SCSS. The old version (that included only HTML, CSS and vanilla JS) I wrote long time ago, so I decided that it's time to tweak it a little bit.</p>
