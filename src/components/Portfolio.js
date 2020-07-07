@@ -82,7 +82,7 @@ export default function Portfolio() {
                 </div>
                 <div className="items go">
                 <div className="multi-button">
-                <a href="https://github.com/AlexJohnSadowski" target="_blank" rel="noopener" class="buttonOne">GitHub</a>   
+                <a href="https://github.com/AlexJohnSadowski/My-Personal-Website" target="_blank" rel="noopener" class="buttonOne">GitHub</a>   
                 </div>
             </div>
             </div>
