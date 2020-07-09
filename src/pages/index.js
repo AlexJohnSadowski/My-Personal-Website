@@ -48,7 +48,7 @@ const IndexPage = () => {
           <meta charSet="utf-8" />
           <title>Alex Sadowski || Front-End Developer</title>
           <meta name="description" content="Hello, my name is Alex - I am a React Developer and foreign language enthusiast. Contact me if you want me to help you develop your project!" />
-
+          <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </Helmet>
         <Header />
         <Dashboard />

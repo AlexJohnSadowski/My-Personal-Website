@@ -675,8 +675,9 @@ p {
 @media (max-width:760px){
   
   .art-grid {
+    
     grid-row-gap: 10px;
-    width:100%!important;
+    grid-template-columns: 1fr;
     grid-template-areas:
     'P4'
     'P1'
@@ -685,26 +686,29 @@ p {
     'P5';
     }
 
+    .card-art-one{
+      width:90vw;
+      grid-area: P1;
+      background: url("../src/images/arbeit.jpg")
+    }
     .card-art-two{
       margin-left:5%;
-      max-height:450px;
+      width:90vw;
       grid-area:P2;
       display:none;
       background: url("../src/images/believe.jpg")
     }
 
     .card-art-three{
-      margin-left:5%!important;
-      max-height:450px;
-      max-width:325px;
+      margin-left:3%!important;
+      width:90vw;
       grid-area:P3;
       background: url("../src/images/sun.jpg")
     }
 
     .card-art-four{
       margin-left:3%;
-      max-height:350px;
-      max-width:350px;
+      width:90vw;
       grid-area:P6;
       background: url("../src/images/trump.jpg")
     }
@@ -741,7 +745,8 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     font-weight:800;
-    font-size:24px;
+    font-size:22px;
+    max-width:90vw;
     font-family: 'Roboto','Times New Roman', Times, serif;
   }
 }
