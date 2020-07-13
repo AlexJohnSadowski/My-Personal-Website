@@ -18,14 +18,10 @@
   --line-height: 1.5;
 }
 
-<<<<<<< HEAD
 html {
   box-sizing: border-box;
   overflow-x: hidden;
-=======
-* {
-  box-sizing: border-box;
->>>>>>> ad317668e5fcfa1afd7fbfb97ce6376314bc3632
+  scroll-behavior: smooth;
 }
 
 header{
@@ -40,19 +36,12 @@ header{
 a {
   text-decoration: none;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> ad317668e5fcfa1afd7fbfb97ce6376314bc3632
 body {
   font-family: var(--font-primary);
   font-size: var(--font-size);
   line-height: var(--line-height);
-<<<<<<< HEAD
   overflow-x: hidden;
 
-=======
->>>>>>> ad317668e5fcfa1afd7fbfb97ce6376314bc3632
 }
 
 h1 {
@@ -242,10 +231,6 @@ h1 {
   position:absolute;
   top:30%;
   margin-left:15%;
-<<<<<<< HEAD
-=======
-  margin-bottom:1%;
->>>>>>> ad317668e5fcfa1afd7fbfb97ce6376314bc3632
   font-size:72px;
   font-weight:700;
   font-family:'Nothing You Could Do'
@@ -254,11 +239,7 @@ h1 {
 
 .subtitle {
   position:absolute;
-<<<<<<< HEAD
   top:42%;
-=======
-  top:40%;
->>>>>>> ad317668e5fcfa1afd7fbfb97ce6376314bc3632
   margin-left:15%;
   font-size:36px;
   font-weight:300;
@@ -451,6 +432,8 @@ opacity:0.4;
       '.  nt  .  pp pp pp';
     margin-bottom:5%;
     margin-top:5%;
+    margin-right:2%;
+    margin-left: 2%;
     
 }
 
@@ -481,17 +464,9 @@ opacity:0.4;
 .portrait {
   grid-area: pp;
   height:600px;
-<<<<<<< HEAD
-  max-width:400px;
+  max-width:408px;
   background-color: black;
   background: url("../src/images/portrait.jpg");
-  margin-right:1%;
-=======
-  max-width:420px;
-  background-color: black;
-  background: url("../src/images/portrait.jpg");
-  margin-right:10%;
->>>>>>> ad317668e5fcfa1afd7fbfb97ce6376314bc3632
 }
 
 .title-section--portfolio {
@@ -499,7 +474,6 @@ opacity:0.4;
   font-weight:800;
   font-size:56px;
   font-family: 'Roboto','Times New Roman', Times, serif;
-  margin-right:1%;
   margin-top:0;
   margin-bottom:5%;
   
@@ -510,7 +484,6 @@ opacity:0.4;
   grid-area:nt;
   font-family:'Times New Roman', Times, serif;
   padding-top:5%;
-  padding-left:5%;
   font-size:24px;
   text-align: justify;
   text-justify: inter-word;
@@ -570,6 +543,8 @@ transition: 0.3s all linear;
 .art-grid {
   margin-top:10%;
   margin-bottom:5%;
+  margin-left:2%;
+  margin-right:2%;
   width:100%;
   display: grid;
   grid-template-areas:
@@ -597,7 +572,6 @@ transition: 0.3s all linear;
 }
 
 .card-art-three{
-  margin-left:20%;
   max-height:500px;
   max-width:500px;
   grid-area:P3;
