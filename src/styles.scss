@@ -549,9 +549,14 @@ transition: 0.3s all linear;
   display: grid;
   grid-template-areas:
   'P1 P4 P4  P4 .'
-  '.  P2 P2  .  .'
-  'P6  .  P3  P3  .'
+  '.  P2 P2  P2  P2'
+  'P6  .  .  P3  .'
   'P5 P5 .   .  .';
+}
+
+.container_blog {
+  width:820px;
+  height:650px;
 }
 
 
@@ -565,7 +570,7 @@ transition: 0.3s all linear;
 }
 
 .card-art-two{
-  max-height:450px;
+  max-height:472px;
   max-width:850px;
   grid-area:P2;
   background: url("../src/images/believe.jpg")
