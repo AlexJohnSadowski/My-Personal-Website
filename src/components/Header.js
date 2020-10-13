@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 const Header = props => {
